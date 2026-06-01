@@ -1,5 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["RgrKqLv"]); }
-
-__d("GroupsCometPhotosRootQuery$Parameters",[],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:"4038005782896755",metadata:{},name:"GroupsCometPhotosRootQuery",operationKind:"query",text:null}};e.exports=a}),null);
-__d("GroupsCometPhotosRootQueryVariables",[],(function(a,b,c,d,e,f){"use strict";a=8;f.count=a}),null);
-__d("GroupsCometPhotosRoot.entrypoint",["GroupsCometPhotosRootQuery$Parameters","GroupsCometPhotosRootQueryVariables","JSResourceForInteraction","WebPixelRatio","buildGroupCometRootRoute.entrypoint"],(function(a,b,c,d,e,f){"use strict";a=b("buildGroupCometRootRoute.entrypoint")(b("JSResourceForInteraction")("GroupsCometPhotosRoot.react").__setRef("GroupsCometPhotosRoot.entrypoint"),function(a){a=a.routeProps;var c=a.extraSections;a=a.groupID;return{extraProps:{extraSections:c},queries:{queryReference:{parameters:b("GroupsCometPhotosRootQuery$Parameters"),variables:babelHelpers["extends"]({groupID:a,scale:b("WebPixelRatio").get()},b("GroupsCometPhotosRootQueryVariables"))}}}});e.exports=a}),null);
